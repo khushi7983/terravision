@@ -5,7 +5,6 @@ const NavbarItem = ({title}) => {
   return (
     <span className='hover:underline decoration-white underline-offset-4 cursor-pointer'>
       <Link href={`/${title.toLowerCase()}`}>{title}</Link>
-
     </span>
   )
 }
